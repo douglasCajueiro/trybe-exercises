@@ -10,6 +10,9 @@ Desafio: Posicionamento do planeta
  2- Posicione a saudação
     Nessa segunda etapa, também posicione a saudação em cima do planeta.
 
+ 3- Ordene-os
+    Agora, use uma propriedade z-index para garantir que a saudação sempre apareça em cima da criatura, e não atrás.
+
 -->
 
 <!DOCTYPE html>
@@ -28,6 +31,7 @@ Desafio: Posicionamento do planeta
             position: absolute;
             top: 15px;
             left: 70px;
+            z-index: 1;
         }
         
         #creature {
