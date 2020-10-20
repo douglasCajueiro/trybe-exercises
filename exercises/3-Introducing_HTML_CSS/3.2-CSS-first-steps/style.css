@@ -1,0 +1,72 @@
+/*
+[[[[[[[[[[[[[ Exercises ]]]]]]]]]]]]]]]]]]]
+
+-------------- Part 1 ---------------------
+ 1 - Switch the size of the h1 to 65 pixels. OK
+ 2 - Switch the text color of the h1 to orange. OK
+ 3 - Change the background color of the non ordered list. OK
+ 4 - Create a class to change the background color of the tags p and ul at the same time. OK
+
+ -------------- Part 2 ---------------------
+ 1 - Switch the h1 family to sans-serif OK
+ 2 - Switch the font-weight of the paragraph to 600. OK
+ 3 - Switch the font-size of the body to 16px. OK
+ 4 - Set up the paragraph size as the triple of the body's default size. OK
+ 5 - Explore the properties font-style, line-height, text-align, and text-decoration. OK
+ 6 - Switch each item's color in the list, according to the text. OK
+
+ /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-*/
+
+body {
+    /* 2.3 */
+    font-size: 16px;
+}
+
+h1 {
+    /* 1.1 */
+    font-size: 65px;
+    /* 1.2 */
+    color: orange;
+    /* 2.1 */
+    font-family: sans-serif;
+}
+
+ul {
+    /* 1.3 */
+    background-color: lightgray;
+}
+
+p {
+    /* 2.2 */
+    font-weight: 600;
+    /* 2.4 */
+    font-size: 3em;
+}
+
+.different-background {
+    /* 1.4 */
+    background-color: turquoise;
+}
+
+li {
+    /* 2.5 */
+    font-style: italic;
+    line-height: 1.5em;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/* 2.6 */
+
+.yellow {
+    color: yellow;
+}
+
+.red {
+    color: red;
+}
+
+.brown {
+    color: brown;
+}
