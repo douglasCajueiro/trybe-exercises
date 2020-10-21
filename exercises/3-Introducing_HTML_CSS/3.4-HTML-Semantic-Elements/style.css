@@ -1,8 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0px 30px;
+    background-color: aqua;
 }
 
 header nav {
