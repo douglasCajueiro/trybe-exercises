@@ -25,20 +25,39 @@ header nav .page-links li a {
     color: black;
 }
 
+#full-article .article-title {
+    text-align: center;
+    font-size: 2em;
+}
+
 #full-article {
-    margin: 30px 100px 30px 50px;
+    margin: 30px 100px;
 }
 
-#full-article section article {
+#full-article .facts {
+    text-align: center;
+}
+
+#full-article section {
+    margin-bottom: 80px;
+}
+
+#full-article .section-title {
+    margin-left: 30px;
+}
+
+#full-article section .section-description {
     display: flex;
-    align-items: top;
+    align-items: center;
+    margin: 15px 30px;
 }
 
-#full-article section article p {
+#full-article section .section-description p {
     margin-right: 200px;
+    line-height: 1.5em;
 }
 
-#full-article section img {
+#full-article section .section-description img {
     width: 30%;
     border-radius: 20px;
 }
