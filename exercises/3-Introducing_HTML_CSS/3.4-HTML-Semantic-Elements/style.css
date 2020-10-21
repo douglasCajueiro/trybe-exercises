@@ -24,3 +24,21 @@ header nav .page-links li a {
     text-decoration: none;
     color: black;
 }
+
+#full-article {
+    margin: 30px 100px 30px 50px;
+}
+
+#full-article section article {
+    display: flex;
+    align-items: top;
+}
+
+#full-article section article p {
+    margin-right: 200px;
+}
+
+#full-article section img {
+    width: 30%;
+    border-radius: 20px;
+}
