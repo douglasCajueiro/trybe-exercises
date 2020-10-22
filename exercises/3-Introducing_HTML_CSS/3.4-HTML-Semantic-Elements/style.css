@@ -53,8 +53,20 @@ header nav .page-links li a {
 }
 
 #full-article section .section-description p {
-    margin-right: 200px;
+    margin-right: 20px;
     line-height: 1.5em;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0px 35px;
+}
+
+td {
+    border: 1px solid #dddddd;
+    padding: 8px 20px;
+    text-align: center;
+    background-color: rgb(238, 238, 238);
 }
 
 #full-article section .section-description img {
