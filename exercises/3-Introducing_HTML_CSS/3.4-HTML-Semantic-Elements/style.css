@@ -50,6 +50,8 @@ header nav .page-links li a {
     display: flex;
     align-items: center;
     margin: 15px 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #full-article section .section-description p {
@@ -58,8 +60,9 @@ header nav .page-links li a {
 }
 
 table {
-    border-collapse: collapse;
-    margin: 0px 35px;
+    border-collapse: separate;
+    min-width: 30%;
+    width: auto;
 }
 
 td,
@@ -76,6 +79,9 @@ td:nth-child(odd) {
 }
 
 #full-article section .section-description img {
-    width: 35%;
+    width: 30%;
+    min-width: 400px;
     border-radius: 20px;
+    display: inline-block;
+    margin: 20px 0px;
 }
