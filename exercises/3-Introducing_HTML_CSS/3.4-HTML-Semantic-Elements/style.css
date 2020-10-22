@@ -62,14 +62,20 @@ table {
     margin: 0px 35px;
 }
 
-td {
+td,
+th {
     border: 1px solid #dddddd;
     padding: 8px 20px;
     text-align: center;
     background-color: rgb(238, 238, 238);
 }
 
+td:nth-child(odd) {
+    text-align: left;
+    padding: 8px 8px;
+}
+
 #full-article section .section-description img {
-    width: 30%;
+    width: 35%;
     border-radius: 20px;
 }
