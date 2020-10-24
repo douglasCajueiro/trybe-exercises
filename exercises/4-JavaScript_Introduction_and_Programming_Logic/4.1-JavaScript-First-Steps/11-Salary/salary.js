@@ -1,45 +1,95 @@
-let grossSalary = 1500.10;
-let inss, baseSalary, ir, netSalary;
+let salarioBruto = 1580.00;
+let valorInss, salarioBase, valorIr, deducaoIr, salarioLiquido, porcentagemInss, porcentagemIr;
 
-if (grossSalary <= 0) {
-    console.log("Invalid salary, please retype it.");
+if (salarioBruto <= 0) {
+    console.log("Salário inválido, por favor digite novamente.");
 
 } else {
 
-    // Calculating INSS
-    if (grossSalary <= 1556.94) {
-        inss = (grossSalary / 100) * 8; // 8% for INSS
+    // Calculando INSS
+    if (salarioBruto <= 1556.94) {
+        valorInss = (salarioBruto / 100) * 8; // 8% de INSS
+        porcentagemInss = 8;
 
     } else
-    if (grossSalary <= 2594.92) {
-        inss = (grossSalary / 100) * 9; // 9% for INSS
+    if (salarioBruto <= 2594.92) {
+        valorInss = (salarioBruto / 100) * 9; // 9% de INSS
+        porcentagemInss = 9;
 
     } else
-    if (grossSalary <= 5189.82) {
-        inss = (grossSalary / 100) * 11; // 11% for INSS
+    if (salarioBruto <= 5189.82) {
+        valorInss = (salarioBruto / 100) * 11; // 11% de INSS
+        porcentagemInss = 9;
 
-    } else { // Above 5189.82
-        inss = 570.88; // maximun rate
+    } else { // Acima de 5189.82
+        valorInss = 570.88; // Alíquota máxima
+        porcentagemInss = null;
     }
     //--------------------------------
 
-    baseSalary = grossSalary - inss;
+    salarioBase = salarioBruto - valorInss;
 
-    // Calculating IR
-    if (baseSalary <= 1903.98) {
-        // No IR
-
-    } else
-    if (baseSalary <= 2826.65) {
-        taxes += (baseSalary / 100) * 7.5; // 7.5% for IR
+    // Calculando IR
+    if (salarioBase <= 1903.98) {
+        valorIr = 0.00; // Sem desconto de IR
+        deducaoIr = 0.00;
+        porcentagemIr = 0;
 
     } else
-    if (baseSalary <= 3751.05) {
-        taxes += (baseSalary / 100) * 15; // 15% for IR
+    if (salarioBase <= 2826.65) {
+        valorIr = (salarioBase / 100) * 7.5; // 7.5% de IR
+        deducaoIr = 142.80; // Dedução de 142.80
+        porcentagemIr = "7,5";
 
-    } else { // Above 4664.68
-        taxes += (baseSalary / 100) * 22.5; // 22.5% for IR
+    } else
+    if (salarioBase <= 3751.05) {
+        valorIr = (salarioBase / 100) * 15; // 15% de IR
+        deducaoIr = 354.80;
+        porcentagemIr = 15;
+
+    } else { // Acima de 4664.68
+        valorIr = (salarioBase / 100) * 22.5; // 22.5% de IR
+        deducaoIr = 869.36; // Dedução de 142.80
+        porcentagemIr = "22,5";
 
     }
+
+    salarioLiquido = salarioBase - (valorIr - deducaoIr);
+
+    console.log("------------------------------------")
+    console.log("")
+    console.log(`Salário Bruto: ${salarioBruto}`);
+    console.log("")
+
+
+    console.log("----------------INSS----------------")
+    if (porcentagemInss > 0) {
+        console.log(`Alíquota de ${porcentagemInss}%`)
+        console.log(`Total do desconto: ${valorInss}`)
+
+    } else {
+        console.log(`Alíquota máxima do INSS paga, no total de: ${valorInss}`);
+    }
+
+    console.log("------------------------------------")
+    console.log("")
+    console.log(`Salário Base: ${salarioBase}`);
+    console.log("")
+    console.log("----------Imposto de Renda----------")
+
+
+    if (porcentagemIr == 0) {
+        console.log("Categoria salarial isenta de Imposto de Renda.")
+    } else {
+        console.log(`Alíquota de ${porcentagemIr}%: ${valorIr}`)
+        console.log(`Deduções no valor de ${deducaoIr}`)
+        console.log(`Total a descontar: ${valorIr - deducaoIr}`)
+    }
+
+    console.log("------------------------------------")
+    console.log("")
+    console.log(`Salário Líquido: ${salarioLiquido}`)
+    console.log("")
+    console.log("------------------------------------")
 
 }
