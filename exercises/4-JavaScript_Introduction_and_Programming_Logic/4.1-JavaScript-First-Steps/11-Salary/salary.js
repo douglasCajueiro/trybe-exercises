@@ -7,6 +7,7 @@ if (salarioBruto <= 0) {
 } else {
 
     // Calculando INSS
+    //--------------------------------
     if (salarioBruto <= 1556.94) {
         valorInss = (salarioBruto / 100) * 8; // 8% de INSS
         porcentagemInss = 8;
@@ -25,11 +26,13 @@ if (salarioBruto <= 0) {
         valorInss = 570.88; // Alíquota máxima
         porcentagemInss = null;
     }
+    // FIM-INSS
     //--------------------------------
 
     salarioBase = salarioBruto - valorInss;
 
-    // Calculando IR
+    // Calculando Imposto de Renda
+    //--------------------------------
     if (salarioBase <= 1903.98) {
         valorIr = 0.00; // Sem desconto de IR
         deducaoIr = 0.00;
@@ -53,8 +56,15 @@ if (salarioBruto <= 0) {
         porcentagemIr = "22,5";
 
     }
+    //FIM-IR
+    //--------------------------------
+
 
     salarioLiquido = salarioBase - (valorIr - deducaoIr);
+
+
+    // Mostrando Resultados
+    //--------------------------------
 
     console.log("------------------------------------")
     console.log("")
@@ -75,8 +85,9 @@ if (salarioBruto <= 0) {
     console.log("")
     console.log(`Salário Base: ${salarioBase}`);
     console.log("")
-    console.log("----------Imposto de Renda----------")
 
+
+    console.log("----------Imposto de Renda----------")
 
     if (porcentagemIr == 0) {
         console.log("Categoria salarial isenta de Imposto de Renda.")
@@ -85,8 +96,8 @@ if (salarioBruto <= 0) {
         console.log(`Deduções no valor de ${deducaoIr}`)
         console.log(`Total a descontar: ${valorIr - deducaoIr}`)
     }
-
     console.log("------------------------------------")
+
     console.log("")
     console.log(`Salário Líquido: ${salarioLiquido}`)
     console.log("")
