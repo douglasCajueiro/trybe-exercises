@@ -11,7 +11,8 @@ if (cost <= 0 || salePrice <= 0) {
     let costPlusTax = (cost + (cost / 100 * 20));
 
     profit = (salePrice - costPlusTax);
+    let profit1K = profit * 1000;
 
-    console.log("Your have a $" + profit + " profit.");
+    console.log(`You have a $${profit1K} profit for every thousand products sold.`);
 
 }
