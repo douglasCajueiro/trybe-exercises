@@ -1,7 +1,11 @@
 let angle1 = 30;
 let angle2 = 60;
-let angle3 = 91;
+let angle3 = 90;
 
-const isTriangle = (angle1 + angle2 + angle3 === 180);
+console.log("Is it a valid triangle?")
 
-console.log(isTriangle)
+const isTriangle =
+    (angle1 > 0 && angle2 > 0 && angle3 > 0) &&
+    (angle1 + angle2 + angle3 == 180);
+
+console.log(isTriangle);
