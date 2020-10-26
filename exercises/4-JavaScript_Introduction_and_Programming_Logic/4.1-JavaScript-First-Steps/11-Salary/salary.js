@@ -47,12 +47,12 @@ if (salarioBruto <= 0) {
     } else
     if (salarioBase <= 3751.05) {
         valorIr = (salarioBase / 100) * 15; // 15% de IR
-        deducaoIr = 354.80;
+        deducaoIr = 354.80; // Dedução de 354.80
         porcentagemIr = 15;
 
     } else { // Acima de 4664.68
         valorIr = (salarioBase / 100) * 22.5; // 22.5% de IR
-        deducaoIr = 869.36; // Dedução de 142.80
+        deducaoIr = 869.36; // Dedução de 869.36
         porcentagemIr = "22,5";
 
     }
