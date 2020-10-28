@@ -9,20 +9,29 @@ n = 5
 
 -------------------------------------*/
 
-let size = 11;
+let size = 6; //Size of the Pyramid's base
+
+let height = 0; //Defines the height of the Pyramid
+
+let spacing = 0; //Spacing before asterisk in the firts row
+
+let asterisks = 0; //Number of asterisks in the firts row
+
+let row = ""; //Content to be printed in each row
 
 
-let height = (size + 1) / 2;
-let spacing = (size + 1) / 2;
-let asterisks = 1;
-let row = "";
-
+//Checking if the base size is odd or even
 if (size % 2 !== 0) {
 
     //Rules for odd numbers
+
+    height = (size + 1) / 2;
+    spacing = (size + 1) / 2;
+    asterisks = 1;
+
     for (let degree = 0; degree < height; degree += 1) {
 
-        for (let space = spacing; space > 0; space -= 1) {
+        for (let space = spacing; space > 1; space -= 1) {
             row += " ";
 
         }
@@ -44,14 +53,9 @@ if (size % 2 !== 0) {
 
     //Rules for even numbers
 
-    //Height of the Pyramid
     height = size / 2;
-
-    //Number of asterisks in the firts row
-    asterisks = 2;
-
-    //Spacing in the firts row
     spacing = size / 3;
+    asterisks = 2;
 
     for (let degree = 0; degree < height; degree += 1) {
 
