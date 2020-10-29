@@ -16,15 +16,22 @@ Retorno esperado: false
 
 function palindrome(word) {
 
+    //Converting the whole word into lowercase
     let given = word.toLowerCase();
+
+    //Declaring a variable that will store the inverted word
     let inverted = "";
 
+    //Running across the word backwards
     for (let letter = given.length - 1; letter >= 0; letter -= 1) {
+
+        //Concatenating the current letter
         inverted += given[letter];
 
 
     }
 
+    //Returning if it's a palindrome
     return given === inverted;
 }
 
