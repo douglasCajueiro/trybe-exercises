@@ -13,18 +13,23 @@ Valor esperado no retorno da função: Fernanda.
 
 function longestName(arrayOfNames) {
 
-    let biggest = arrayOfNames[0];
+    //Storing the first value to start the comparisons
+    let biggestName = arrayOfNames[0];
 
+    //Running across the whole array
     for (let name = 1; name < arrayOfNames.length; name += 1) {
 
-        if (arrayOfNames[name].length > biggest.length) {
+        //Checking if the current name is longer than the one stored in the * let biggestName *
+        if (arrayOfNames[name].length > biggestName.length) {
 
-            biggest = arrayOfNames[name];
+            //If it's longer, it overwrites the value stored until now
+            biggestName = arrayOfNames[name];
 
         }
     }
 
-    return biggest;
+    //Returning the longest number found
+    return biggestName;
 }
 
 
