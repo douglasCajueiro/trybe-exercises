@@ -36,7 +36,7 @@ function highest(array) {
 
     }
 
-    //Returning the highest number's index in the array
+    //Returning the index of the highest number found in the array
     return topIndex;
 }
 
