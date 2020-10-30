@@ -59,7 +59,6 @@ Dentro da tag <script>, você vai modificar os elementos já existentes utilizan
     </div>
 
     <!-- 
-    2. Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe(rgb(76, 164, 109)).
     3. Crie uma função que mude a cor do quadrado vermelho para branco.
     4. Crie uma função que corrija o texto da tag < h1 > .
     5. Crie uma função que modifique todo o texto da tag < p > para maiúsculo.
@@ -76,6 +75,16 @@ Dentro da tag <script>, você vai modificar os elementos já existentes utilizan
         let newParagraph = "Daqui a dois anos, quero estar trabalhando como desenvolvedor em alguma empresa extrangeira."
 
         changeTagP(newParagraph);
+        //-----------------------------------------------------------
+
+
+        // Exercise 2
+        //-----------------------------------------------------------
+        function changeToTrybeGreen(selector) {
+            document.querySelector(selector).style.backgroundColor = "rgb(76, 164, 109)";
+        }
+
+        changeToTrybeGreen(".main-content");
         //-----------------------------------------------------------
     </script>
 </body>
