@@ -58,7 +58,7 @@ Dentro da tag <script>, você vai modificar os elementos já existentes utilizan
         </div>
     </div>
 
-    <!-- 1. Crie uma função que mude o texto na tag < p > para uma descrição de como você se vê daqui a 2 anos.(Não gaste tempo pensando no texto e sim realizando o exercício)
+    <!-- 
     2. Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe(rgb(76, 164, 109)).
     3. Crie uma função que mude a cor do quadrado vermelho para branco.
     4. Crie uma função que corrija o texto da tag < h1 > .
@@ -66,6 +66,14 @@ Dentro da tag <script>, você vai modificar os elementos já existentes utilizan
     6. Crie uma função que exiba o conteúdo de todas as tags < p > no console. -->
 
     <script>
+        function changeTagP(newText) {
+            let tagP = document.getElementsByTagName("p")[1];
+            tagP.innerHTML = newText;
+        }
+
+        let newParagraph = "Quero estar trabalhando como desenvilvedor para alguma empresa extrangeira."
+
+        changeTagP(newParagraph);
     </script>
 </body>
 
