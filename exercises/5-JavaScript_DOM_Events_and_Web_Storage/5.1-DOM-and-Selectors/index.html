@@ -104,6 +104,17 @@ Dentro da tag <script>, você vai modificar os elementos já existentes utilizan
 
         let newTitle = "Exercício 5.1 - JavaScript";
         changeTitle(newTitle);
+
+        // Exercise 5
+        //-----------------------------------------------------------
+        function upperCaseTag(tag, index) {
+            let element = document.getElementsByTagName(tag)[index];
+            let toUpper = element.innerHTML.toUpperCase();
+            element.innerHTML = toUpper;
+        }
+
+        upperCaseTag("p", 1);
+
         //-----------------------------------------------------------
     </script>
 </body>
