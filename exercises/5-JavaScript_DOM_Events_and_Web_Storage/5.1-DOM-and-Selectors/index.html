@@ -92,6 +92,19 @@ Dentro da tag <script>, você vai modificar os elementos já existentes utilizan
         }
 
         changeToWhite(".main-content .center-content");
+
+
+        // Exercise 4
+        //-----------------------------------------------------------
+
+        function changeTitle(newText) {
+            let titleText = document.getElementsByClassName("title")[0];
+            titleText.innerHTML = newText;
+        }
+
+        let newTitle = "Exercício 5.1 - JavaScript";
+        changeTitle(newTitle);
+        //-----------------------------------------------------------
     </script>
 </body>
 
