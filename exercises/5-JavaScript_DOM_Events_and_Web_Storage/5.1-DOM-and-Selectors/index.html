@@ -77,11 +77,11 @@ Dentro da tag <script>, você vai modificar os elementos já existentes utilizan
 
         // Exercise 2
         //-----------------------------------------------------------
-        function changeToTrybeGreen(selector) {
-            document.querySelector(selector).style.backgroundColor = "rgb(76, 164, 109)";
+        function changeToTrybeGreen(className, index) {
+            document.getElementsByClassName(className)[index].style.backgroundColor = "rgb(76, 164, 109)";
         }
 
-        changeToTrybeGreen(".main-content");
+        changeToTrybeGreen("main-content", 0);
 
 
         // Exercise 3
