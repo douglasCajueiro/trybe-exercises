@@ -86,11 +86,11 @@ Dentro da tag <script>, você vai modificar os elementos já existentes utilizan
 
         // Exercise 3
         //-----------------------------------------------------------
-        function changeToWhite(selector) {
-            document.querySelector(selector).style.backgroundColor = "white";
+        function changeToWhite(className, index) {
+            document.getElementsByClassName(className)[index].style.backgroundColor = "white";
         }
 
-        changeToWhite(".main-content .center-content");
+        changeToWhite("center-content", 0);
 
 
         // Exercise 4
