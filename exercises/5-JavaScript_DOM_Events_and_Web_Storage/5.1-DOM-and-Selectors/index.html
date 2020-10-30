@@ -122,7 +122,12 @@ Dentro da tag <script>, você vai modificar os elementos já existentes utilizan
 
             let allTags = document.getElementsByTagName(tagName);
 
-            console.log(allTags);
+            for (let tag = 0; tag < allTags.length; tag += 1) {
+                console.log(allTags[tag].innerHTML);
+
+            }
+
+
         }
 
         logTags("p");
