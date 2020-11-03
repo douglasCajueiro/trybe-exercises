@@ -14,6 +14,10 @@ Para uma melhor organização, faça commits a cada tarefa concluída. Vamos aos
 9- Adicione 3 tags h3, todas sendo filhas do div criado no passo 2.
 */
 
+//Exercise-1
+let title = document.createElement('h1');
+title.innerHTML = "Exercício 5.2 - JavaScript DOM";
+document.body.appendChild(title);
 
 /*
 -----Part-2-----
