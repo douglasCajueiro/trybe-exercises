@@ -50,6 +50,15 @@ let smallImage = document.createElement("img");
 smallImage.src = "https://picsum.photos/200";
 leftContent.appendChild(smallImage);
 
+//Exercise-8
+let list = document.createElement('ul');
+for (let num = 1; num < 11; num += 1) {
+    let listItem = document.createElement('li');
+    listItem.innerHTML = num;
+    list.appendChild(listItem);
+
+}
+rightContent.appendChild(list);
 
 /*
 -----Part-2-----
