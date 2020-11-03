@@ -25,10 +25,16 @@ let mainContent = document.createElement('div');
 mainContent.className = "main-content";
 document.body.appendChild(mainContent);
 
-//Exercie-3
+//Exercise-3
 let centerContent = document.createElement('div');
 centerContent.className = "center-content";
 mainContent.appendChild(centerContent);
+
+//Exercise-4
+let someText = document.createElement('p');
+someText.innerHTML = "Mussum Ipsum. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. A ordem dos tratores não altera o pão duris. Quem num gosta di mim que vai caçá sua turmis!";
+centerContent.appendChild(someText);
+
 
 /*
 -----Part-2-----
