@@ -60,6 +60,16 @@ for (let num = 1; num < 11; num += 1) {
 }
 rightContent.appendChild(list);
 
+//Exercise-9
+
+for (let tag = 1; tag <= 3; tag += 1) {
+    let h3 = document.createElement('h3');
+    h3.innerHTML = `h1 nº${tag}`;
+    mainContent.appendChild(h3);
+
+}
+
+
 /*
 -----Part-2-----
   Agora que você criou muita coisa, vamos fazer algumas alterações e remoções:
