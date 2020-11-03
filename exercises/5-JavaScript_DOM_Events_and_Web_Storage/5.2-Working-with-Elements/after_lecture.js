@@ -19,6 +19,12 @@ let title = document.createElement('h1');
 title.innerHTML = "Exercício 5.2 - JavaScript DOM";
 document.body.appendChild(title);
 
+
+//Exercise-2
+let mainContent = document.createElement('div');
+mainContent.className = "main-content";
+document.body.appendChild(mainContent);
+
 /*
 -----Part-2-----
   Agora que você criou muita coisa, vamos fazer algumas alterações e remoções:
