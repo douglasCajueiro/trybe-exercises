@@ -40,6 +40,11 @@ let leftContent = document.createElement('div');
 leftContent.className = "left-content";
 mainContent.appendChild(leftContent);
 
+//Exercise-6
+let rightContent = document.createElement('div');
+rightContent.className = "right-content";
+mainContent.appendChild(rightContent);
+
 
 /*
 -----Part-2-----
