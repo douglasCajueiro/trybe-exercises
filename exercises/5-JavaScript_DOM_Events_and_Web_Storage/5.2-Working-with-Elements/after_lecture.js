@@ -45,6 +45,11 @@ let rightContent = document.createElement('div');
 rightContent.className = "right-content";
 mainContent.appendChild(rightContent);
 
+//Exercise-7
+let smallImage = document.createElement("img");
+smallImage.src = "https://picsum.photos/200";
+leftContent.appendChild(smallImage);
+
 
 /*
 -----Part-2-----
