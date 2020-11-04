@@ -94,3 +94,6 @@ for (const h3 of allH3) {
 
 //Exercise-3
 mainContent.removeChild(leftContent);
+
+//Exercise-4
+rightContent.style.marginRight = "auto";
