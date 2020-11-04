@@ -34,8 +34,7 @@ let dezHolidays = [24, 25, 31];
 const dezFridays = [4, 11, 18, 25];
 
 function createAllDays() {
-	
-	//Taking the days list
+  //Taking the days list
   const ulDays = document.getElementById('days');
 
   for (let index = 0; index < dezDaysList.length; index += 1) {
@@ -60,3 +59,13 @@ createAllDays();
 
 // Exercise-2
 // --------------------------------------------------------------------------------------------------------
+
+function holidaysBtn(btnString) {
+const btnsContainer = document.querySelector('.buttons-container');
+const btnHolidays = document.createElement('button');
+btnHolidays.innerHTML = btnString;
+btnHolidays.id = "btn-holiday";
+btnsContainer.appendChild(btnHolidays);
+}
+
+holidaysBtn("Feriados");
