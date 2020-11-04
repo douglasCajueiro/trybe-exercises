@@ -97,3 +97,6 @@ mainContent.removeChild(leftContent);
 
 //Exercise-4
 rightContent.style.marginRight = "auto";
+
+//Exercise-5
+centerContent.parentElement.style.backgroundColor = "green";
