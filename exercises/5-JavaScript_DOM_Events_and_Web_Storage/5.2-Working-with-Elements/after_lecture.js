@@ -91,3 +91,6 @@ for (const h3 of allH3) {
     h3.className = "description";
 
 }
+
+//Exercise-3
+mainContent.removeChild(leftContent);
