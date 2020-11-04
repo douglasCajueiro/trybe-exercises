@@ -100,3 +100,7 @@ rightContent.style.marginRight = "auto";
 
 //Exercise-5
 centerContent.parentElement.style.backgroundColor = "green";
+
+//Exercise-6
+list.removeChild(list.lastElementChild);
+list.removeChild(list.lastElementChild);
