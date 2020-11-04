@@ -84,3 +84,10 @@ for (let tag = 1; tag <= 3; tag += 1) {
 
 //Exercise-1
 document.querySelector('h1').className = "title";
+
+//Exercise-2
+let allH3 = document.querySelectorAll('h3');
+for (const h3 of allH3) {
+    h3.className = "description";
+
+}
