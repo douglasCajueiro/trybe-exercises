@@ -33,10 +33,10 @@ let dezHolidays = [24, 25, 31];
 // Fridays
 const dezFridays = [4, 11, 18, 25];
 
-function createAllDays() {
-  //Taking the days list
-  const ulDays = document.getElementById('days');
+//Taking the days list
+const ulDays = document.getElementById('days');
 
+function createAllDays() {
   for (let index = 0; index < dezDaysList.length; index += 1) {
     let liDay = document.createElement('li');
     let currentDay = dezDaysList[index];
@@ -122,9 +122,9 @@ function fridaysChanger() {
     }
     // If fridays are already changed, switch them back to normal
     else {
-			let thisFriday = allFridays[index];
-			let previousDay = parseInt(thisFriday.previousSibling.innerHTML);
-			thisFriday.innerHTML = previousDay + 1;
+      let thisFriday = allFridays[index];
+      let previousDay = parseInt(thisFriday.previousSibling.innerHTML);
+      thisFriday.innerHTML = previousDay + 1;
     }
   }
   fridaysChanged = !fridaysChanged;
@@ -132,3 +132,24 @@ function fridaysChanger() {
 
 let btnFridays = document.getElementById('btn-friday');
 btnFridays.addEventListener('click', fridaysChanger);
+
+// Exercise-6
+// --------------------------------------------------------------------------------------------------------
+/*
+
+function settingZoom() {
+  let allLi = ulDays.children;
+  for (let i = 0; i < allLi.length; i += 1) {
+
+		allLi[i].addEventListener('mouseover', zoomIn(allLi[i]));
+  }
+}
+
+
+
+
+zoomIn(li){
+	li.style.fontSize = "30px";
+};
+
+*/
