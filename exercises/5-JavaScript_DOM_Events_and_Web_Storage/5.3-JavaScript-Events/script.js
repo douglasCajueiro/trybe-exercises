@@ -105,3 +105,30 @@ function fridaysBtn(btnString) {
 }
 
 fridaysBtn('Sexta-feira');
+
+// Exercise-5
+// --------------------------------------------------------------------------------------------------------
+
+let fridaysChanged = false;
+
+function fridaysChanger() {
+  // Picking all fridays
+  const allFridays = document.querySelectorAll('.friday');
+
+  for (let index = 0; index < allFridays.length; index += 1) {
+    // If fridays are not changed yet, change them
+    if (fridaysChanged === false) {
+      allFridays[index].innerHTML = 'SEXTOU!!';
+    }
+    // If fridays are already changed, switch them back to normal
+    else {
+			let thisFriday = allFridays[index];
+			let previousDay = parseInt(thisFriday.previousSibling.innerHTML);
+			thisFriday.innerHTML = previousDay + 1;
+    }
+  }
+  fridaysChanged = !fridaysChanged;
+}
+
+let btnFridays = document.getElementById('btn-friday');
+btnFridays.addEventListener('click', fridaysChanger);
