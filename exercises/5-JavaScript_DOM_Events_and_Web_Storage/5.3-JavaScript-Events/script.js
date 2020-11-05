@@ -61,11 +61,36 @@ createAllDays();
 // --------------------------------------------------------------------------------------------------------
 
 function holidaysBtn(btnString) {
-const btnsContainer = document.querySelector('.buttons-container');
-const btnHolidays = document.createElement('button');
-btnHolidays.innerHTML = btnString;
-btnHolidays.id = "btn-holiday";
-btnsContainer.appendChild(btnHolidays);
+  const btnsContainer = document.querySelector('.buttons-container');
+  const btnHolidays = document.createElement('button');
+  btnHolidays.innerHTML = btnString;
+  btnHolidays.id = 'btn-holiday';
+  btnsContainer.appendChild(btnHolidays);
 }
 
-holidaysBtn("Feriados");
+holidaysBtn('Feriados');
+
+// Exercise-3
+// --------------------------------------------------------------------------------------------------------
+let holidaysHighlight = false;
+function holidaysChanger() {
+  // Picking all holidays
+  const allHolidays = document.querySelectorAll('.holiday');
+
+  for (let index = 0; index < allHolidays.length; index += 1) {
+    // If holidays are not highlighted, highlight it
+    if (holidaysHighlight === false) {
+      allHolidays[index].style.backgroundColor = 'green';
+      allHolidays[index].style.color = 'white';
+    }
+    // If holidays are already highlighted, switch their colors back to normal
+    else {
+      allHolidays[index].style.backgroundColor = 'rgb(238,238,238)';
+      allHolidays[index].style.color = '#777';
+    }
+  }
+  holidaysHighlight = !holidaysHighlight;
+}
+
+let btnHolidays = document.getElementById('btn-holiday');
+btnHolidays.addEventListener('click', holidaysChanger);
