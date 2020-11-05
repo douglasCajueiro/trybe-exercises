@@ -59,9 +59,9 @@ createAllDays();
 
 // Exercise-2
 // --------------------------------------------------------------------------------------------------------
+const btnsContainer = document.querySelector('.buttons-container');
 
 function holidaysBtn(btnString) {
-  const btnsContainer = document.querySelector('.buttons-container');
   const btnHolidays = document.createElement('button');
   btnHolidays.innerHTML = btnString;
   btnHolidays.id = 'btn-holiday';
@@ -94,3 +94,14 @@ function holidaysChanger() {
 
 let btnHolidays = document.getElementById('btn-holiday');
 btnHolidays.addEventListener('click', holidaysChanger);
+
+// Exercise-4
+// --------------------------------------------------------------------------------------------------------
+function fridaysBtn(btnString) {
+  const btnFridays = document.createElement('button');
+  btnFridays.innerHTML = btnString;
+  btnFridays.id = 'btn-friday';
+  btnsContainer.appendChild(btnFridays);
+}
+
+fridaysBtn('Sexta-feira');
