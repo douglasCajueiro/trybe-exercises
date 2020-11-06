@@ -161,3 +161,16 @@ function zoomOut() {
 }
 
 zoomOut();
+
+// Exercise-7
+// --------------------------------------------------------------------------------------------------------
+
+let myTasks = document.querySelector('.my-tasks');
+
+function addTask(string) {
+	let span = document.createElement('span');
+	span.innerText = string;
+	myTasks.appendChild(span);
+}
+
+addTask('Terminar esses exercícios!')
