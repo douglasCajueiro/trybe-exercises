@@ -135,21 +135,29 @@ btnFridays.addEventListener('click', fridaysChanger);
 
 // Exercise-6
 // --------------------------------------------------------------------------------------------------------
-/*
 
-function settingZoom() {
-  let allLi = ulDays.children;
-  for (let i = 0; i < allLi.length; i += 1) {
+function zoomIn() {
+  let allDays = document.querySelectorAll('.day');
 
-		allLi[i].addEventListener('mouseover', zoomIn(allLi[i]));
+  for (let index = 0; index < allDays.length; index += 1) {
+    allDays[index].addEventListener('mouseover', function (event) {
+      event.target.style.transform = 'scale(1.3)';
+      event.target.style.fontWeight = 'bold';
+    });
   }
 }
 
+zoomIn();
 
+function zoomOut() {
+  let allDays = document.querySelectorAll('.day');
 
+  for (let index = 0; index < allDays.length; index += 1) {
+    allDays[index].addEventListener('mouseleave', function (event) {
+      event.target.style.transform = 'scale(1)';
+      event.target.style.fontWeight = '';
+    });
+  }
+}
 
-zoomIn(li){
-	li.style.fontSize = "30px";
-};
-
-*/
+zoomOut();
