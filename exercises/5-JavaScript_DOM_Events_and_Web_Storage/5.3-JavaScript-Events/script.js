@@ -168,9 +168,21 @@ zoomOut();
 let myTasks = document.querySelector('.my-tasks');
 
 function addTask(string) {
-	let span = document.createElement('span');
-	span.innerText = string;
-	myTasks.appendChild(span);
+  let span = document.createElement('span');
+  span.innerText = string;
+  myTasks.appendChild(span);
 }
 
-addTask('Terminar esses exercícios!')
+addTask('Terminar esses exercícios!');
+
+// Exercise-8
+// --------------------------------------------------------------------------------------------------------
+function taskMarker(color) {
+  let div = document.createElement('div');
+  div.className = 'task';
+  div.style.backgroundColor = color;
+
+  myTasks.appendChild(div);
+}
+
+taskMarker('green');
