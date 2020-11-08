@@ -189,7 +189,6 @@ taskMarker('green');
 
 // Exercise-9
 // --------------------------------------------------------------------------------------------------------
-
 function toggleTaskMarker() {
   let allTaskMarkers = document.querySelectorAll('.task');
 
@@ -198,15 +197,40 @@ function toggleTaskMarker() {
     currentTask.addEventListener('click', function (event) {
       if (currentTask.className === 'task') {
         currentTask.className = 'task selected';
-				currentTask.style.border = 'solid 2px white';
-				currentTask.style.boxShadow = '0px 0px 8px black';
+        currentTask.style.border = 'solid 2px white';
+        currentTask.style.boxShadow = '0px 0px 8px black';
       } else {
         currentTask.className = 'task';
-				currentTask.style.border = '';
-				currentTask.style.boxShadow = '';
+        currentTask.style.border = '';
+        currentTask.style.boxShadow = '';
       }
     });
   }
 }
 
 toggleTaskMarker();
+
+// Exercise-10
+// --------------------------------------------------------------------------------------------------------
+function taskOnDay() {
+  let allDays = document.querySelectorAll('.day');
+  for (let index = 0; index < allDays.length; index += 1) {
+    let currentDay = allDays[index];
+    currentDay.addEventListener('click', function () {
+      let taskSelected = document.querySelector('.selected');
+
+      if (taskSelected !== null) {
+        if (currentDay.style.backgroundColor === '') {
+          let taskSelectedColor = taskSelected.style.backgroundColor;
+          currentDay.style.backgroundColor = taskSelectedColor;
+          currentDay.style.color = 'white';
+        } else {
+          currentDay.style.backgroundColor = '';
+          currentDay.style.color = '#777';
+        }
+      }
+    });
+  }
+}
+
+taskOnDay();
