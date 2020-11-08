@@ -186,3 +186,27 @@ function taskMarker(color) {
 }
 
 taskMarker('green');
+
+// Exercise-9
+// --------------------------------------------------------------------------------------------------------
+
+function toggleTaskMarker() {
+  let allTaskMarkers = document.querySelectorAll('.task');
+
+  for (let index = 0; index < allTaskMarkers.length; index += 1) {
+    let currentTask = allTaskMarkers[index];
+    currentTask.addEventListener('click', function (event) {
+      if (currentTask.className === 'task') {
+        currentTask.className = 'task selected';
+				currentTask.style.border = 'solid 2px white';
+				currentTask.style.boxShadow = '0px 0px 8px black';
+      } else {
+        currentTask.className = 'task';
+				currentTask.style.border = '';
+				currentTask.style.boxShadow = '';
+      }
+    });
+  }
+}
+
+toggleTaskMarker();
