@@ -14,10 +14,12 @@ header {
 
 main {
   background-color: wheat;
-  padding: 0 30px;
+  padding: 0 150px 50px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 150%;
 }
 
 p {
@@ -30,4 +32,10 @@ footer {
   background-color: green;
   position: relative;
   bottom: px;
+}
+
+h1,
+h2,
+h3 {
+  display: block;
 }
