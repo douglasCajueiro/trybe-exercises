@@ -20,6 +20,7 @@ header .bg-colors {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
   flex-wrap: wrap;
   padding: 0 5px;
 }
@@ -31,17 +32,26 @@ header .color-palette {
   align-items: center;
 }
 
-.btn-bg-color, .btn-text-color{
-  width: 40px;
-  height: 40px;
+.btn-bg-color,
+.btn-text-color {
+  width: 30px;
+  height: 30px;
 }
 
 header .bg-colors span {
   color: wblackhite;
 }
 
-.text-color-palette {
-
+.text-colors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 10px;
+  background-color: white;
+  height: 100%;
+  box-shadow: black 2px 2px 5px;
+  margin-left: 15px;
 }
 .btn-text-color {
   border-radius: 50%;
