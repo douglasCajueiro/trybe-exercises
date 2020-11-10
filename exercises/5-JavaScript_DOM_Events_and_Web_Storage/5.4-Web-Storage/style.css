@@ -24,13 +24,14 @@ header .bg-colors {
   padding: 0 5px;
 }
 
-header .bg-color-palette {
+header .color-palette {
   width: 180px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.btn-bg-color {
+.btn-bg-color, .btn-text-color{
   width: 40px;
   height: 40px;
 }
@@ -39,8 +40,14 @@ header .bg-colors span {
   color: wblackhite;
 }
 
+.text-color-palette {
+
+}
+.btn-text-color {
+  border-radius: 50%;
+}
+
 main {
-  background-color: #f5deb3;
   padding: 0 150px 50px;
   display: flex;
   flex-wrap: wrap;
