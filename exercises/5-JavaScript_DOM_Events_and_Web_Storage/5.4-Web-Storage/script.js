@@ -1,6 +1,6 @@
 window.onload = function () {
   //prettier-ignore
-  let bgColors = ['#f5deb3', '#bdd5ea', '#fdc5f5', '#d9dbbc', '#b5ffe9', '#f5deb3'];
+  let bgColors = ['#f5deb3', '#bdd5ea', '#fdc5f5', '#d9dbbc', '#b5ffe9', '#fafffd'];
   let body = document.querySelector('body');
   let header = document.querySelector('header');
   let main = document.querySelector('main');

@@ -13,6 +13,31 @@ header {
   display: flex;
   align-items: center;
 }
+header .bg-colors {
+  background-color: white;
+  height: 100%;
+  box-shadow: black 2px 2px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 5px;
+}
+
+header .bg-color-palette {
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-bg-color {
+  width: 40px;
+  height: 40px;
+}
+
+header .bg-colors span {
+  color: wblackhite;
+}
 
 main {
   background-color: #f5deb3;
@@ -35,28 +60,3 @@ footer {
   position: relative;
   bottom: px;
 }
-
-h1,
-h2,
-h3 {
-  display: block;
-}
-
-.bg-colors {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.bg-color-palette {
-  width: 180px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.btn-bg-color {
-  width: 40px;
-  height: 40px;
-}
-
