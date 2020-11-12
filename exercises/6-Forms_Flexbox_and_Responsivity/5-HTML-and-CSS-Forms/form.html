@@ -4,8 +4,70 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resume Form</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <header>
+      <h1>Resume</h1>
+    </header>
 
+    <main>
+      <h3>Please describe your carreer below:</h3>
+
+      <form action="get">
+        <fieldset>
+          <legend>Personal data</legend>
+          <label for="name-input">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name-input"
+            placeholder="Your full name"
+            maxlength="40"
+            required
+          />
+          <label for="email-input">E-mail</label>
+          <input
+            type="email"
+            name="email"
+            id="email-input"
+            placeholder="your@email.com"
+            maxlength="50"
+            required
+          />
+          <label for="zip-code-input">CPF (Zip code)</label>
+          <input
+            type="text"
+            name="cpf"
+            id="zip-code-input"
+            maxlength="11"
+            placeholder="12.345-678"
+            required
+          />
+          <label for="address-input">Address</label>
+          <input
+            type="text"
+            name="address"
+            id="address-input"
+            maxlength="200"
+            required
+            placeholder="Nameless avenue, 000"
+          />
+          <label for="city-input">City</label>
+          <input
+            type="text"
+            name="city"
+            id="city-input"
+            maxlength="28"
+            required
+          />
+
+          <label for="state-input">State</label>
+          <select name="state" id="state-input"></select>
+        </fieldset>
+      </form>
+    </main>
+
+    <script src="script.js"></script>
   </body>
 </html>

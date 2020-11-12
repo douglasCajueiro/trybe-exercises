@@ -37,7 +37,7 @@ Vamos criar um formulário de cadastro de currículo com base na especificação
    - Estado - ComboBox
 
      - Todos os estados do Brasil
-     - Utilize estruturas de repetição via JavaScript para gerar os <option>
+     - Utilize estruturas de repetição via JavaScript para gerar os \<option>
      - Campo obrigatório
 
    - Tipo - Radio Button
