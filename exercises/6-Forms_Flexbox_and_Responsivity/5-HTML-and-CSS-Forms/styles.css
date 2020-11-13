@@ -16,8 +16,8 @@ h3 {
 }
 
 fieldset {
-  margin: 20px 50px;
-  padding: 15px 30px;
+  margin: 15px 50px;
+  padding: 15px 30px 5px;
   max-width: 800px;
   border-radius: 8px;
   background-color: rgb(209, 238, 255);
@@ -65,4 +65,29 @@ textarea {
 textarea:focus {
   outline: none;
   box-shadow: 0px 0px 3px black;
+}
+
+button {
+  height: 35px;
+  margin: 0px 15px 10px 0px;
+  padding: 0 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: inset 0px 0px 2px gray;
+  border: 1px solid gray;
+  font-size: 0.9em;
+}
+
+button:hover {
+filter: invert(3%);
+}
+
+button:active {
+  filter: none;
+  outline: none;
+  box-shadow: inset 0px 0px 1px black;
+}
+button:focus {
+  outline: none;
+
 }
