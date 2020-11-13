@@ -67,6 +67,6 @@ Vamos criar um formulário de cadastro de currículo com base na especificação
 
    - Chame uma função JavaScript e interrompa o fluxo automático do form utilizando o preventDefault().
    - Execute as validações que foram pedidas ao longo da montagem do formulário.
-   - Monte uma <div> com o consolidado dos dados que foram inseridos no formulário.
+   - Monte uma \<div> com o consolidado dos dados que foram inseridos no formulário.
 
 4. Crie um botão Limpar que limpa todos os campos do formulário e a \<div> com seu currículo também.

@@ -65,6 +65,39 @@
           <label for="state-input">State</label>
           <select name="state" id="state-input"></select>
         </fieldset>
+
+        <fieldset>
+          <legend>Career</legend>
+          
+          <label for="last-job-input">Last Job Position</label>
+          <input
+            type="text"
+            name="last-job"
+            id="last-job-input"
+            maxlength="40"
+            required
+          />
+          <label for="last-job-desc-input">Job Description</label>
+          <input
+            type="text"
+            name="last-job-desc"
+            id="last-job-desc-input"
+            maxlength="500"
+            required
+          />
+          <label for="start-date-input">Start date</label>
+          <input type="text" name="last-job-start-date" id="start-date-input" />
+
+          <label for="experiences-input">Summary of previous Job experiences</label>
+          <textarea
+            name="previous-experiences"
+            id="experiences-input"
+            cols="30"
+            rows="8"
+            maxlength="1000"
+            required
+          ></textarea>
+        </fieldset>
       </form>
     </main>
 
