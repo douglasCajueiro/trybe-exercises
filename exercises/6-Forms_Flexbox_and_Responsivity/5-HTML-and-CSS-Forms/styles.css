@@ -16,7 +16,7 @@ h3 {
 }
 
 fieldset {
-  margin: 15px 50px;
+  margin: 15px 15px;
   padding: 15px 30px 5px;
   max-width: 800px;
   border-radius: 8px;
@@ -35,7 +35,6 @@ legend {
 input {
   display: block;
   margin: 5px 0 20px;
-  width: 70%;
   padding: 10px;
   border: none;
   box-shadow: inset 0px 0px 3px black;
@@ -76,6 +75,7 @@ button {
   box-shadow: inset 0px 0px 2px gray;
   border: 1px solid gray;
   font-size: 0.9em;
+  width: fit-content;
 }
 
 button:hover {
@@ -90,4 +90,36 @@ button:active {
 button:focus {
   outline: none;
 
+}
+
+.whole-page {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  max-width: 800px;
+  flex-direction: column;
+}
+
+.inputs-group {
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  width: 85%;
+  flex-direction: column;
+}
+
+select {
+  width: fit-content;
+}
+
+.date-input {
+  max-width: 150px;
+}
+
+.submit-btn {
+  background-color: rgb(129, 236, 129);
+}
+.reset-btn {
+  background-color: rgb(247, 136, 136);
 }
