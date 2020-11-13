@@ -59,6 +59,7 @@ textarea {
   padding: 3px;
   border-radius: 5px;
   box-shadow: inset 0px 0px 3px black;
+  background-color: white;
 }
 
 textarea:focus {
