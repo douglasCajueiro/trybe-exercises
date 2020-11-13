@@ -28,7 +28,8 @@ legend {
   font-size: 1.2em;
   background-color: white;
   border-radius: 5px;
-  box-shadow: inset 0px 0px 3px black;
+  box-shadow:  0px 0px 2px black;
+  border: solid rgb(95, 95, 95) 1px;
 }
 
 input {
