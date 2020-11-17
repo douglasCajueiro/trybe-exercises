@@ -24,3 +24,5 @@
 - center: align items across the center of the cross axis
 - baseline: Items display at the baseline of the container.
 - stretch: Items are stretched to fit the container.
+
+**_<div align="right">Douglas Cajueiro - 16/11/2020 </div>_**
