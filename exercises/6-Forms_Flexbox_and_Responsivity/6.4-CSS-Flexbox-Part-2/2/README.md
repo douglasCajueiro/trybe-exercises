@@ -1,7 +1,7 @@
 # Part 2: Flexbox Defense
 
 Exercises done on this website:
-https://flexboxfroggy.com/
+http://www.flexboxdefense.com/
 
 The solution of each exercises is inside a css files, named by its number.
 

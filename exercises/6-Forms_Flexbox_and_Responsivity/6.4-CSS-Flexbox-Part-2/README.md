@@ -1,5 +1,12 @@
 # 6.4 - CSS Flexbox - Part 2
 
+### Exercises done on these websites:
+
+**Flexbox Froggy**: https://flexboxfroggy.com/
+
+**Flexbox Defense**: http://www.flexboxdefense.com/
+
+
 ### CSS properties learned during this class and implemented on the exercises:
 
 #### order
