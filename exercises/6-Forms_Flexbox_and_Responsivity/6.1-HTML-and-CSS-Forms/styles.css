@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+}
+header h1 {
+  margin-top: 35px;
+  margin-left: 70px;
+}
+
+h3 {
+  margin: 15px 70px 10px;
+}
+
+fieldset {
+  margin: 15px 15px;
+  padding: 15px 30px 5px;
+  max-width: 800px;
+  border-radius: 8px;
+  background-color: rgb(209, 238, 255);
+}
+
+legend {
+  padding: 8px 20px;
+  font-size: 1.2em;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px black;
+  border: solid rgb(95, 95, 95) 1px;
+}
+
+input {
+  display: block;
+  margin: 5px 0 20px;
+  padding: 10px;
+  border: none;
+  box-shadow: inset 0px 0px 3px black;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0px 0px 3px black;
+}
+
+select {
+  margin: 10px 0;
+}
+
+textarea {
+  width: 70%;
+  margin: 5px 0 20px;
+  display: block;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: inset 0px 0px 3px black;
+}
+
+textarea:focus {
+  outline: none;
+  box-shadow: 0px 0px 3px black;
+}
+
+button {
+  height: 35px;
+  margin: 0px 15px 10px 0px;
+  padding: 0 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: inset 0px 0px 2px gray;
+  border: 1px solid gray;
+  font-size: 0.9em;
+  width: fit-content;
+}
+
+button:hover {
+filter: invert(3%);
+}
+
+button:active {
+  filter: none;
+  outline: none;
+  box-shadow: inset 0px 0px 1px black;
+}
+button:focus {
+  outline: none;
+
+}
+
+.whole-page {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  max-width: 800px;
+  flex-direction: column;
+}
+
+.inputs-group {
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  width: 85%;
+  flex-direction: column;
+}
+
+select {
+  width: fit-content;
+}
+
+.date-input {
+  max-width: 150px;
+}
+
+.submit-btn {
+  background-color: rgb(129, 236, 129);
+}
+.reset-btn {
+  background-color: rgb(247, 136, 136);
+}
