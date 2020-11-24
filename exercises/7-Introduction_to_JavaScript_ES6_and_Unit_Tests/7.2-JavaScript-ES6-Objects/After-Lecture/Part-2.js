@@ -32,3 +32,10 @@ console.log(lesson2);
   turno: 'tarde'
 }
 */
+
+// Exercise 2
+//-------------------------------------------------
+const listKeys = (object) => Object.keys(object);
+
+console.log(listKeys(lesson1));
+// [ 'materia', 'numeroEstudantes', 'professor', 'turno' ]
