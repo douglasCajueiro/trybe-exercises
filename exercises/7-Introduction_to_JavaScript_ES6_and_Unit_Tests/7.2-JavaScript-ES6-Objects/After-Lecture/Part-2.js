@@ -46,3 +46,10 @@ const objectLength = (object) => Object.keys(object).length;
 
 console.log(objectLength(lesson3));
 // 4
+
+// Exercise 4
+//-------------------------------------------------
+const listValues = (object) => Object.values(object);
+
+console.log(listValues(lesson1));
+// [ 'Matemática', 20, 'Maria Clara', 'manhã' ]
