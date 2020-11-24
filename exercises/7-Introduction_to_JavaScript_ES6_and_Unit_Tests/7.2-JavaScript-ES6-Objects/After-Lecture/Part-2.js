@@ -39,3 +39,10 @@ const listKeys = (object) => Object.keys(object);
 
 console.log(listKeys(lesson1));
 // [ 'materia', 'numeroEstudantes', 'professor', 'turno' ]
+
+// Exercise 3
+//-------------------------------------------------
+const objectLength = (object) => Object.keys(object).length;
+
+console.log(objectLength(lesson3));
+// 4
