@@ -23,7 +23,7 @@ const lesson3 = {
 const addKey = (object, newKey, value) => (object[newKey] = value);
 
 addKey(lesson2, "turno", "tarde");
-console.log(lesson2);
+// console.log(lesson2);
 /* 
 {
   materia: 'História',
@@ -37,19 +37,47 @@ console.log(lesson2);
 //-------------------------------------------------
 const listKeys = (object) => Object.keys(object);
 
-console.log(listKeys(lesson1));
+// console.log(listKeys(lesson1));
 // [ 'materia', 'numeroEstudantes', 'professor', 'turno' ]
 
 // Exercise 3
 //-------------------------------------------------
 const objectLength = (object) => Object.keys(object).length;
 
-console.log(objectLength(lesson3));
+// console.log(objectLength(lesson3));
 // 4
 
 // Exercise 4
 //-------------------------------------------------
 const listValues = (object) => Object.values(object);
 
-console.log(listValues(lesson1));
+// console.log(listValues(lesson1));
 // [ 'Matemática', 20, 'Maria Clara', 'manhã' ]
+
+// Exercise 5
+//-------------------------------------------------
+const allLessons = Object.assign({ lesson1, lesson2, lesson3 });
+
+//console.log(allLessons);
+/*
+{
+  lesson1: {
+    materia: 'Matemática',
+    numeroEstudantes: 20,
+    professor: 'Maria Clara',
+    turno: 'manhã'
+  },
+  lesson2: {
+    materia: 'História',
+    numeroEstudantes: 20,
+    professor: 'Carlos',
+    turno: 'tarde'
+  },
+  lesson3: {
+    materia: 'Matemática',
+    numeroEstudantes: 10,
+    professor: 'Maria Clara',
+    turno: 'noite'
+  }
+}
+*/
