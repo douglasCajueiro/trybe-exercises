@@ -26,7 +26,7 @@ Copie as funções já implementadas e desenvolva os testes. Separe as funções
 - **4** - Verifique se a chamada myRemove([1, 2, 3, 4], 5) retorna o array esperado
 
 
-**2) A função myRemoveWithoutCopy(arr, item) recebe um array arr e retorna o próprio array sem o elemento item caso ele exista no array**
+**3) A função myRemoveWithoutCopy(arr, item) recebe um array arr e retorna o próprio array sem o elemento item caso ele exista no array**
 
 - **1** - Verifique se a chamada myRemoveWithoutCopy([1, 2, 3, 4], 3) retorna o array esperado
 
