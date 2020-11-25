@@ -81,3 +81,33 @@ const allLessons = Object.assign({ lesson1, lesson2, lesson3 });
   }
 }
 */
+
+// Exercise 6
+//-------------------------------------------------
+// const StudentsTotal = () => {
+//   let total = 0;
+//   for (const lesson in allLessons) {
+//     total += lesson.numeroEstudantes;
+//   }
+//   return total;
+// };
+
+const studentsTotal = () => {
+  let total = 0;
+
+  for (const lesson in allLessons) {
+    if (lesson.numeroEstudantes !== undefined) {
+      total += lesson.numeroEstudantes;
+    }
+  }
+  return total;
+};
+
+//console.log(studentsTotal(allLessons));
+
+// Exercise 7
+//-------------------------------------------------
+const getValueByNumber = (object, keyNumber) => Object.values(object)[keyNumber];
+
+//console.log(getValueByNumber(lesson1, 0));
+// Matemática
