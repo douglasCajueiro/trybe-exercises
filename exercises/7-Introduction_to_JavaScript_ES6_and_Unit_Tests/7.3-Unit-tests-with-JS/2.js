@@ -1,4 +1,4 @@
-const assert = require('assert');
+const assert = require("assert");
 
 function myRemove(arr, item) {
   let newArr = [];
@@ -10,4 +10,9 @@ function myRemove(arr, item) {
   return newArr;
 }
 
+const testArray = [1, 2, 3, 4, 5];
 // implemente seus testes aqui
+assert.deepStrictEqual(myRemove([1, 2, 3, 4], 3), [1, 2, 4]); // 1
+assert.notStrictEqual(myRemove([1, 2, 3, 4], 3), [1, 2, 3, 4]); // 2
+assert.deepStrictEqual(myRemove(testArray), testArray); // 3
+assert.deepStrictEqual(myRemove([1, 2, 3, 4], 5), [1, 2, 3, 4]); // 4
