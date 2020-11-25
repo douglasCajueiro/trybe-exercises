@@ -107,7 +107,17 @@ const studentsTotal = () => {
 
 // Exercise 7
 //-------------------------------------------------
-const getValueByNumber = (object, keyNumber) => Object.values(object)[keyNumber];
+const getValueByNumber = (object, keyNumber) =>
+  Object.values(object)[keyNumber];
 
 //console.log(getValueByNumber(lesson1, 0));
 // Matemática
+
+// Exercise 8
+//-------------------------------------------------
+const verifyPair = (object, key, value) => object[key] === value;
+
+//console.log(verifyPair(lesson3, "turno", "noite"));
+// true
+//console.log(verifyPair(lesson3, "materia", "Maria Clara"));
+//false
