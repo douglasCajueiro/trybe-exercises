@@ -17,6 +17,8 @@ Copie as funções já implementadas e desenvolva os testes. Separe as funções
 
 - **4** - Teste se a mensagem de erro é "parameters must be numbers" quando realizar a chamada sum(4, "5")
 
+**Solução:** [Exercício 1](./1.js)
+
 <hr>
 
 **2) A função myRemove(arr, item) recebe um array arr e retorna uma cópia desse array sem o elemento item caso ele exista no array**
@@ -29,6 +31,8 @@ Copie as funções já implementadas e desenvolva os testes. Separe as funções
 
 - **4** - Verifique se a chamada myRemove([1, 2, 3, 4], 5) retorna o array esperado
 
+**Solução:** [Exercício 2](./2.js)
+
 <hr>
 
 **3) A função myRemoveWithoutCopy(arr, item) recebe um array arr e retorna o próprio array sem o elemento item caso ele exista no array**
@@ -40,6 +44,8 @@ Copie as funções já implementadas e desenvolva os testes. Separe as funções
 - **3** - Faça uma chamada para a função myRemoveWithoutCopy e verifique se o array passado por parâmetro sofreu alterações
 
 - **4** - Verifique se a chamada myRemoveWithoutCopy([1, 2, 3, 4], 5) retorna o array esperado
+
+**Solução:** [Exercício 3](./3.js)
 
 <hr>
 
@@ -54,3 +60,9 @@ Copie as funções já implementadas e desenvolva os testes. Separe as funções
 - **4** - Faça uma chamada com um número que não é divisível por 3 ou 5 e verifique se o retorno é o esperado
 
 - **5** - Faça uma chamada com um parâmetro que não é um número e verifique se o retorno é o esperado
+
+**Solução:** [Exercício 4](./4.js)
+
+<hr>
+
+**5) Compare dois objetos (JSON) para verificar se são idênticos ou não**
