@@ -8,6 +8,16 @@ Dados os casos de testes abaixo, escreva as funções de forma a passar nos test
 
 Copie os testes já implementadas e desenvolva as funções. Separe as funções em arquivos para evitar qualquer tipo de problema.
 
+<hr>
+
 **1) Escreva a função addOne para passar nos testes já implementados.**
 
 **Solução:** [Exercício 1](./1.js)
+
+<hr>
+
+**2) Escreva a função wordLengths para passar nos testes já implementados.**
+
+**Solução:** [Exercício 2](./2.js)
+
+<hr>
