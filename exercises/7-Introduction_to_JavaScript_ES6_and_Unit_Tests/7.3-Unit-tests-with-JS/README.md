@@ -66,3 +66,5 @@ Copie as funções já implementadas e desenvolva os testes. Separe as funções
 <hr>
 
 **5) Compare dois objetos (JSON) para verificar se são idênticos ou não**
+
+**Solução:** [Exercício 5](./5.js)
