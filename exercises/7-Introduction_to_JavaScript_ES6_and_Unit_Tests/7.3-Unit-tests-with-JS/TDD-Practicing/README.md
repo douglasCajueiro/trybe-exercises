@@ -9,3 +9,5 @@ Dados os casos de testes abaixo, escreva as funções de forma a passar nos test
 Copie os testes já implementadas e desenvolva as funções. Separe as funções em arquivos para evitar qualquer tipo de problema.
 
 **1) Escreva a função addOne para passar nos testes já implementados.**
+
+**Solução:** [Exercício 1](./1.js)
