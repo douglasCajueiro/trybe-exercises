@@ -74,8 +74,7 @@ const expectedResult = {
   releaseYear: 1991
 };
 
-function getNamedBook() {
   // escreva seu código aqui
-}
+const getNamedBook = () => books.find((book) => book.name.length === 26);
 
 assert.deepEqual(getNamedBook(), expectedResult);
