@@ -22,6 +22,6 @@ Solução: [exercise2](./exercise2.js)
 
 <hr>
 
-**2) Encontre o primeiro livro cujo nome possui 26 caracteres.**
+**3) Encontre o primeiro livro cujo nome possui 26 caracteres.**
 
 Solução: [exercise3](./exercise3.js)
