@@ -31,3 +31,10 @@ Solução: [exercise3](./exercise3.js)
 **4) Ordene os livros por data de lançamento em ordem decrescente.**
 
 Solução: [exercise4](./exercise4.js)
+
+<hr>
+
+**5) Faça uma função que retorne true , se todas as pessoas autoras nasceram no século XX, ou false , caso contrário.**
+
+Solução: [exercise5](./exercise5.js)
+
