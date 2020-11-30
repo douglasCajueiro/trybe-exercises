@@ -38,3 +38,11 @@ Solução: [exercise4](./exercise4.js)
 
 Solução: [exercise5](./exercise5.js)
 
+<hr>
+
+**6) Faça uma função que retorne true , se algum livro foi lançado na década de 80, e false , caso contrário.**
+
+Solução: [exercise6](./exercise6.js)
+
+<hr>
+
