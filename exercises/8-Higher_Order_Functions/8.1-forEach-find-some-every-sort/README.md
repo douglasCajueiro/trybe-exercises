@@ -14,3 +14,8 @@ Solução: [exercise1](./exercise1.js)
 
 <hr>
 
+**2) Retorne o nome do livro de menor nome.**
+
+* Dica: use a função forEach.
+
+Solução: [exercise2](./exercise2.js)
