@@ -25,3 +25,9 @@ Solução: [exercise2](./exercise2.js)
 **3) Encontre o primeiro livro cujo nome possui 26 caracteres.**
 
 Solução: [exercise3](./exercise3.js)
+
+<hr>
+
+**4) Ordene os livros por data de lançamento em ordem decrescente.**
+
+Solução: [exercise4](./exercise4.js)
