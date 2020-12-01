@@ -19,3 +19,9 @@ O array deve ser ordenado por idade, ou seja, da pessoa mais jovem para a mais v
 Solução: [exercise-2.js](./exercise-2.js)
 
 <hr>
+
+**3) Crie um array com todos os objetos que possuem gênero ficção científica ou fantasia.**
+
+- Dica: use as função filter ;
+
+
