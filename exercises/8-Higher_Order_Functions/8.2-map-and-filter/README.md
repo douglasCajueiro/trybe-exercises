@@ -32,3 +32,6 @@ Solução: [exercise-2.js](./exercise-2.js)
 
 - Dica: use as funções filter e sort
 
+Solução: [exercise-4.js](./exercise-4.js)
+
+<hr>
