@@ -24,7 +24,7 @@ Solução: [exercise-2.js](./exercise-2.js)
 
 - Dica: use as função filter ;
 
-Solução: [exercise-2.js](./exercise-2.js)
+Solução: [exercise-3.js](./exercise-3.js)
 
 <hr>
 
@@ -37,3 +37,7 @@ Solução: [exercise-4.js](./exercise-4.js)
 <hr>
 
 **5) Crie um array em ordem alfabética apenas com os nomes de todas as pessoas autoras de ficção científica ou fantasia.**
+
+Solução: [exercise-5.js](./exercise-5.js)
+
+<hr>
