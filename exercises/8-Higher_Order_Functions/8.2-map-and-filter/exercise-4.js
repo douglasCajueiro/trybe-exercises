@@ -1,62 +1,62 @@
-const assert = require('assert');
+const assert = require("assert");
 
 const books = [
   {
     id: 1,
-    name: 'As Crônicas de Gelo e Fogo',
-    genre: 'Fantasia',
+    name: "As Crônicas de Gelo e Fogo",
+    genre: "Fantasia",
     author: {
-      name: 'George R. R. Martin',
-      birthYear: 1948
+      name: "George R. R. Martin",
+      birthYear: 1948,
     },
     releaseYear: 1991,
   },
   {
     id: 2,
-    name: 'O Senhor dos Anéis',
-    genre: 'Fantasia',
+    name: "O Senhor dos Anéis",
+    genre: "Fantasia",
     author: {
-      name: 'J. R. R. Tolkien',
+      name: "J. R. R. Tolkien",
       birthYear: 1892,
     },
     releaseYear: 1954,
   },
   {
     id: 3,
-    name: 'Fundação',
-    genre: 'Ficção Científica',
+    name: "Fundação",
+    genre: "Ficção Científica",
     author: {
-      name: 'Isaac Asimov',
+      name: "Isaac Asimov",
       birthYear: 1920,
     },
     releaseYear: 1951,
   },
   {
     id: 4,
-    name: 'Duna',
-    genre: 'Ficção Científica',
+    name: "Duna",
+    genre: "Ficção Científica",
     author: {
-      name: 'Frank Herbert',
+      name: "Frank Herbert",
       birthYear: 1920,
     },
     releaseYear: 1965,
   },
   {
     id: 5,
-    name: 'A Coisa',
-    genre: 'Terror',
+    name: "A Coisa",
+    genre: "Terror",
     author: {
-      name: 'Stephen King',
-      birthYear: 1947
+      name: "Stephen King",
+      birthYear: 1947,
     },
     releaseYear: 1986,
   },
   {
     id: 6,
-    name: 'O Chamado de Cthulhu',
-    genre: 'Terror',
+    name: "O Chamado de Cthulhu",
+    genre: "Terror",
     author: {
-      name: 'H. P. Lovecraft',
+      name: "H. P. Lovecraft",
       birthYear: 1890,
     },
     releaseYear: 1928,
@@ -66,29 +66,31 @@ const books = [
 const expected_result = [
   {
     id: 6,
-    name: 'O Chamado de Cthulhu',
-    genre: 'Terror',
-    author: { name: 'H. P. Lovecraft', birthYear: 1890 },
-    releaseYear: 1928
+    name: "O Chamado de Cthulhu",
+    genre: "Terror",
+    author: { name: "H. P. Lovecraft", birthYear: 1890 },
+    releaseYear: 1928,
   },
   {
     id: 3,
-    name: 'Fundação',
-    genre: 'Ficção Científica',
-    author: { name: 'Isaac Asimov', birthYear: 1920 },
-    releaseYear: 1951
+    name: "Fundação",
+    genre: "Ficção Científica",
+    author: { name: "Isaac Asimov", birthYear: 1920 },
+    releaseYear: 1951,
   },
   {
     id: 2,
-    name: 'O Senhor dos Anéis',
-    genre: 'Fantasia',
-    author: { name: 'J. R. R. Tolkien', birthYear: 1892 },
-    releaseYear: 1954
-  }
-]
+    name: "O Senhor dos Anéis",
+    genre: "Fantasia",
+    author: { name: "J. R. R. Tolkien", birthYear: 1892 },
+    releaseYear: 1954,
+  },
+];
 
 function oldBooks() {
   // escreva seu código aqui
+  const older60 = books.filter((book) => 2020 - book.releaseYear > 60);
+  return older60.sort((a, b) =>  a.releaseYear - b.releaseYear);
 }
 
 assert.deepEqual(oldBooks(), expected_result);
