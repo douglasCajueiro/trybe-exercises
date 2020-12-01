@@ -44,3 +44,6 @@ Solução: [exercise-5.js](./exercise-5.js)
 
 **6) Crie um array com o nome de todos os livros com mais de 60 anos de publicação.**
 
+Solução: [exercise-6.js](./exercise-6.js)
+
+<hr>
