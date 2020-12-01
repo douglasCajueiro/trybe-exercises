@@ -1,6 +1,6 @@
 # 8.1 - Higher Order Functions - forEach, find, some, every, sort
 
-Estes exercícios praticam os conceitos de Higher Order Functions associados a outros já vistos, como arrow functions , template literals , objetos e temas dos fundamentos. 
+Estes exercícios praticam os conceitos de Higher Order Functions associados a outros já vistos, como arrow functions , template literals , objetos e temas dos fundamentos.
 
 Essa mistura de conceitos é muito importante para seu aprendizado, então use tudo o que sabe para resolver os exercícios!
 
@@ -8,7 +8,7 @@ Essa mistura de conceitos é muito importante para seu aprendizado, então use t
 
 **1) Encontre o nome da primeira pessoa autora do livro nascida no ano de 1947.**
 
-* Dica: use a função find .
+- Dica: use a função find .
 
 Solução: [exercise1](./exercise1.js)
 
@@ -16,7 +16,7 @@ Solução: [exercise1](./exercise1.js)
 
 **2) Retorne o nome do livro de menor nome.**
 
-* Dica: use a função forEach.
+- Dica: use a função forEach.
 
 Solução: [exercise2](./exercise2.js)
 
@@ -49,3 +49,7 @@ Solução: [exercise6](./exercise6.js)
 **7) Faça uma função que retorne <ins>true</ins> , caso nenhum author tenha nascido no mesmo ano, e <ins>false</ins> , caso contrário.**
 
 Solução: [exercise7](./exercise7.js)
+
+<hr>
+
+**_<div align="right">Douglas Cajueiro - 30/11/2020 </div>_**
