@@ -46,3 +46,6 @@ Solução: [exercise6](./exercise6.js)
 
 <hr>
 
+**7) Faça uma função que retorne <ins>true</ins> , caso nenhum author tenha nascido no mesmo ano, e <ins>false</ins> , caso contrário.**
+
+Solução: [exercise7](./exercise7.js)
