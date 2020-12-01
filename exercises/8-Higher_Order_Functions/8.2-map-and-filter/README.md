@@ -24,4 +24,8 @@ Solução: [exercise-2.js](./exercise-2.js)
 
 - Dica: use as função filter ;
 
+Solução: [exercise-2.js](./exercise-2.js)
+
+<hr>
+
 
