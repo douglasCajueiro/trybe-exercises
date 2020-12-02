@@ -1,6 +1,7 @@
 ## 8.2 - Higher Order Functions - map( ) and filter( )
 
-**1)** Crie um array com strings no formato: **NOME_DO_LIVRO - GÊNERO_DO_LIVRO - NOME_DA_PESSOA_AUTORA**
+**1)** Crie um array com strings no formato: 
+**NOME_DO_LIVRO - GÊNERO_DO_LIVRO - NOME_DA_PESSOA_AUTORA**
 
 - Dica: Use a função map
 
@@ -53,3 +54,5 @@ Solução: [exercise-6.js](./exercise-6.js)
 Solução: [exercise-7.js](./exercise-7.js)
 
 <hr>
+
+**_<div align="right">Douglas Cajueiro - 01/12/2020 </div>_**
