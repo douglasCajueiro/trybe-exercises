@@ -34,7 +34,6 @@ const books = [
   {
     id: 4,
     name: 'Duna',
-    genre: 'Ficção Científica',
     author: {
       name: 'Frank Herbert',
       birthYear: 1920,
@@ -75,12 +74,7 @@ const expectedResult = {
 };
 
 function longestNamedBook() {
-  return books.reduce((biggestBook, currentBook) => {
-    if (currentBook.name.length > biggestBook.name.length) {
-      return currentBook;
-    }
-    return biggestBook;
-  });
+  // escreva seu código aqui
 }
 
 assert.deepStrictEqual(longestNamedBook(), expectedResult);
