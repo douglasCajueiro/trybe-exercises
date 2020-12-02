@@ -21,3 +21,7 @@ Solução: [exercise-3.js](./exercise-3.js)
 <hr>
 
 **4) Encontre o livro com o maior nome.**
+
+Solução: [exercise-4.js](./exercise-4.js)
+
+<hr>
