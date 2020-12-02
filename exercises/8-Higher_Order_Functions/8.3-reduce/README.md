@@ -13,3 +13,5 @@ Solução: [exercise-1.js](./exercise-1.js)
 Solução: [exercise-2.js](./exercise-2.js)
 
 <hr>
+
+**3) Calcule a média de idade que as pessoas autoras tinham quando seus respectivos livros foram lançados.**
