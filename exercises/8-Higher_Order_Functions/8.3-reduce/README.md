@@ -10,3 +10,6 @@ Solução: [exercise-1.js](./exercise-1.js)
 
 **2) Crie uma string com os nomes de todas as pessoas autoras.**
 
+Solução: [exercise-2.js](./exercise-2.js)
+
+<hr>
