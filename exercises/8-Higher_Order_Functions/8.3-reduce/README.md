@@ -25,3 +25,5 @@ Solução: [exercise-3.js](./exercise-3.js)
 Solução: [exercise-4.js](./exercise-4.js)
 
 <hr>
+
+**5) Dada o array de nomes, retorne a quantidade de vezes em que aparecem a letra a maiúscula ou minúscula.**
