@@ -47,3 +47,5 @@ Solução: [exercise-5.js](./exercise-5.js)
 Solução: [exercise-6.js](./exercise-6.js)
 
 <hr>
+
+**7) Encontre o nome do livro escrito pela pessoa cujo nome registrado começa com três iniciais (terminam com um ponto).**
