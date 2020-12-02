@@ -7,3 +7,6 @@
 Solução: [exercise-1.js](./exercise-1.js)
 
 <hr>
+
+**2) Crie uma string com os nomes de todas as pessoas autoras.**
+
