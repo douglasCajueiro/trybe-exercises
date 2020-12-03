@@ -17,3 +17,7 @@ Solução: [exercise-1](./exercise-1.js)
 Solução: [exercise-2](./exercise-2.js)
 
 <hr>
+
+**3) Escreva a função personLikes , que dado um objeto de parâmetro que representa uma pessoa, retorna todos os gostos daquela pessoa.**
+
+- Dica: use object destructuring.
