@@ -6,7 +6,7 @@
 
 - Dica: use **spread operator**.
 
-Solução: [exercise-1](./exercise-1.js)
+    Solução: [exercise-1](./exercise-1.js)
 
 <hr>
 
@@ -14,7 +14,7 @@ Solução: [exercise-1](./exercise-1.js)
 
 - Dica: use parâmetro rest .
 
-Solução: [exercise-2](./exercise-2.js)
+    Solução: [exercise-2](./exercise-2.js)
 
 <hr>
 
