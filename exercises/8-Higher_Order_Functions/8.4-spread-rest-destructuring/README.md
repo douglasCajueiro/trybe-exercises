@@ -21,3 +21,7 @@
 **3) Escreva a função personLikes , que dado um objeto de parâmetro que representa uma pessoa, retorna todos os gostos daquela pessoa.**
 
 - Dica: use object destructuring.
+
+    Solução: [exercise-3](./exercise-3.js)
+
+<hr>
