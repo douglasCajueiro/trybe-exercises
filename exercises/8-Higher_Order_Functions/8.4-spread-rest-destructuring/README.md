@@ -14,4 +14,6 @@ Solução: [exercise-1](./exercise-1.js)
 
 - Dica: use parâmetro rest .
 
+Solução: [exercise-2](./exercise-2.js)
+
 <hr>
