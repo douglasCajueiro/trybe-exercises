@@ -47,3 +47,6 @@ Para isso vamos assumir que a posição 0 de **notas** refere-se ao aluno na pos
 Solução: [exercise-6.js](./exercise-6.js)
 
 <hr>
+
+
+**_<div align="right">Douglas Cajueiro - 02/12/2020 </div>_**
