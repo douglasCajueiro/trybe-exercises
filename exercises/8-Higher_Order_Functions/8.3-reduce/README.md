@@ -1,4 +1,4 @@
-## 8.2 - Higher Order Functions - reduce( )
+## 8.3 - Higher Order Functions - reduce( )
 
 <hr>
 
@@ -43,3 +43,7 @@ Para isso vamos assumir que a posição 0 de **notas** refere-se ao aluno na pos
 
 
 **Dica:** Você pode acessar o index do array dentro de map , e você pode ver o objeto esperado na constante expected.
+
+Solução: [exercise-6.js](./exercise-6.js)
+
+<hr>
