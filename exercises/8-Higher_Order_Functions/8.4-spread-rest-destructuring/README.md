@@ -6,4 +6,6 @@
 
 - Dica: use **spread operator**.
 
+Solução: [exercise-1](./exercise-1.js)
+
 <hr>
