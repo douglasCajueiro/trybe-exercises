@@ -30,7 +30,7 @@
 
 - Dica: use object destructuring .
 
-  Solução: [exercise-3](./exercise-3.js)
+  Solução: [exercise-4](./exercise-4.js)
 
 <hr>
 
@@ -39,3 +39,7 @@
 **Detalhe:** <ins>você precisa fazer essa função gastando 1 linha só.</ins>
 
 - Dica: use array destructuring .
+
+  Solução: [exercise-5](./exercise-5.js)
+
+<hr>
