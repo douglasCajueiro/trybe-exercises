@@ -49,3 +49,7 @@
 Crie uma função **toObject** que, dada uma lista, retorna um objeto representando o carro:
 
 - Dica: use array destructuring e abbreviation object literal .
+
+  Solução: [exercise-6](./exercise-6.js)
+
+<hr>
