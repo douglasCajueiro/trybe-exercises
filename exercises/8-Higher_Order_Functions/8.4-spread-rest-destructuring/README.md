@@ -34,6 +34,8 @@
 
 <hr>
 
-**5) Escreva a função swap , que dado um array de 3 elementos, retorna um novo array com o primeiro e terceiro elementos trocados. Detalhe: você precisa fazer essa função gastando 1 linha só:**
+**5) Escreva a função swap , que dado um array de 3 elementos, retorna um novo array com o primeiro e terceiro elementos trocados.**
+
+**Detalhe:** <ins>você precisa fazer essa função gastando 1 linha só.</ins>
 
 - Dica: use array destructuring .
