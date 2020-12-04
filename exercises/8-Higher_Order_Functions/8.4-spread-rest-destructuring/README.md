@@ -6,7 +6,7 @@
 
 - Dica: use **spread operator**.
 
-    Solução: [exercise-1](./exercise-1.js)
+  Solução: [exercise-1](./exercise-1.js)
 
 <hr>
 
@@ -14,7 +14,7 @@
 
 - Dica: use parâmetro rest .
 
-    Solução: [exercise-2](./exercise-2.js)
+  Solução: [exercise-2](./exercise-2.js)
 
 <hr>
 
@@ -22,10 +22,14 @@
 
 - Dica: use object destructuring.
 
-    Solução: [exercise-3](./exercise-3.js)
+  Solução: [exercise-3](./exercise-3.js)
 
 <hr>
 
 **4) Escreva uma função filterPeople que, dada uma lista de pessoas, retorna todas as pessoas australianas que nasceram no século 20:**
 
 - Dica: use object destructuring .
+
+  Solução: [exercise-3](./exercise-3.js)
+
+<hr>
