@@ -53,3 +53,9 @@ Crie uma função **toObject** que, dada uma lista, retorna um objeto representa
   Solução: [exercise-6](./exercise-6.js)
 
 <hr>
+
+**7) Escreva uma função shipLength que, dado um objeto representando um navio, retorna o comprimento dele, mostrando também a devida unidade de comprimento:**
+
+- Dica: use object destructuring .
+
+<hr>
