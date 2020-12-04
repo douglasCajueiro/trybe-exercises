@@ -61,3 +61,7 @@ Crie uma função **toObject** que, dada uma lista, retorna um objeto representa
   Solução: [exercise-7](./exercise-7.js)
 
 <hr>
+
+**8) Escreva uma função greet que, dado o nome de uma pessoa, retorna uma mensagem de cumprimento:**
+
+- Dica: use default params .
