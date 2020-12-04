@@ -58,4 +58,6 @@ Crie uma função **toObject** que, dada uma lista, retorna um objeto representa
 
 - Dica: use object destructuring .
 
+  Solução: [exercise-7](./exercise-7.js)
+
 <hr>
