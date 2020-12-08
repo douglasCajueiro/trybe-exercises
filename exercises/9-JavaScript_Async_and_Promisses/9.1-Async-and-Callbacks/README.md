@@ -24,4 +24,5 @@ Código: [Exercício 2](./exercise-2.js)
 
 - Modifique getPlanet , de forma que Marte seja impresso assincronamente, depois de 4 segundos.
 
+  **Solução:**  [Exercício 3](./exercise-3.js)
 <hr>
