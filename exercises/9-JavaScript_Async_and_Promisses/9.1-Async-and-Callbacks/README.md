@@ -34,4 +34,6 @@ O Curiosity envia para a Terra a temperatura atual em Marte, gastando um tempo v
 
 - Crie a função sendMarsTemperature , que imprime a temperatura em Marte.
 
+  **Solução:** [Exercício 4](./exercise-4.js)
+
 <hr>
