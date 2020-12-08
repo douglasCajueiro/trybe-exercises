@@ -19,3 +19,9 @@ Código: [Exercício 2](./exercise-2.js)
 **Resposta:** A C B
 
 <hr>
+
+**3) A função getPlanet abaixo imprime o planeta Marte de forma síncrona.**
+
+- Modifique getPlanet , de forma que Marte seja impresso assincronamente, depois de 4 segundos.
+
+<hr>
