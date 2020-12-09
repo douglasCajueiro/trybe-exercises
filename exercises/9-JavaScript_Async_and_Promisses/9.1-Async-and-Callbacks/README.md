@@ -45,3 +45,9 @@ O Curiosity envia para a Terra a temperatura atual em Marte, gastando um tempo v
   **Solução:** [Exercício 5](./exercise-5.js)
 
 <hr>
+
+**6) Por fim, o robô Curiosity tem uma taxa de sucesso de envio de mensagem de 60% devido ao fato de o robô já estar muito ocupado com outras operações.**
+
+- Logo, adicione na função sendMarsTemperature um outro callback que contenha as ações a serem tomadas em caso de falha.
+
+<hr>
