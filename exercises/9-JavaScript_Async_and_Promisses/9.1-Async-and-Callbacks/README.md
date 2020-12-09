@@ -42,4 +42,6 @@ O Curiosity envia para a Terra a temperatura atual em Marte, gastando um tempo v
 
 - Logo, adicione na função sendMarsTemperature um callback que contenha as ações a serem tomadas em cima da temperatura.
 
+  **Solução:** [Exercício 5](./exercise-5.js)
+
 <hr>
