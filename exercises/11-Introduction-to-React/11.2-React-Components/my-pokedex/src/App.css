@@ -113,11 +113,21 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .pokemon-description p {
   margin-block-start: 0;
   margin-block-end: 0;
+}
+
+.pokemon-description .pokemon-id {
+  background-color: rgb(49, 49, 49);
+  display: inline-block;
+  width: 50px;
+  padding: 5px;
+  margin: -15px auto 20px auto;
+  border-radius: 10px;
 }
 
 .pokemon-description .pokemon-name {
@@ -126,6 +136,6 @@
 }
 
 .pokemon-description .pokemon-type {
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
