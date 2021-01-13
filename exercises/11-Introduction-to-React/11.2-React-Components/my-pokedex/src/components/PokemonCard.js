@@ -7,11 +7,15 @@ class PokemonCard extends React.Component {
 
     return (
       <div className="pokemon-card">
-        <img className="pokemon-img" src={image} alt={name}/>
+        <div className="pokemon-img-container">
+          <img className="pokemon-img" src={image} alt={name}/>
+          <table className="pokemon-img-bg"></table>
+        </div>
+        
         <div className="pokemon-description">
-          <p> {name} </p>
-          <p> {type} </p>
-          <p> Average weight: {value} {measurementUnit} </p>
+          <p className="pokemon-name"> {name} </p>
+          <p className="pokemon-type"> {type} </p>
+          <p> Av. weight: {value} {measurementUnit} </p>
         </div>
       </div>
     )
