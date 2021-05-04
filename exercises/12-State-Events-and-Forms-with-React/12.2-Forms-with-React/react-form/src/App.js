@@ -1,13 +1,11 @@
 import './App.css';
-import AddressForm from './components/AddressForm';
-import LastJobForm from './components/LastJobForm';
+import EmployeeForm from './components/EmployeeForm';
+
 
 function App() {
   return (
     <div className="App">
-      
-      <AddressForm />
-      <LastJobForm />
+      <EmployeeForm />
     </div>
   );
 }

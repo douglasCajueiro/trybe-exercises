@@ -10,6 +10,7 @@ class LastJobForm extends React.Component {
           <input
             type="fieldset"
             maxLength="1000"
+            name="summary"
             required
           />
         </label>
@@ -19,6 +20,7 @@ class LastJobForm extends React.Component {
           <input
             type="text-area"
             maxLength="40"
+            name="role"
             required
           />
         </label>
@@ -28,6 +30,7 @@ class LastJobForm extends React.Component {
           <input
             type="text"
             maxLength="500"
+            name="roleDescription"
             required
           />
         </label>
