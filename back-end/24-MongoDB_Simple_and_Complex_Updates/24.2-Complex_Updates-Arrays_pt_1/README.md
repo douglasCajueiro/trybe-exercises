@@ -5,7 +5,7 @@ Para os desafios a seguir, foi utilizado como base o mesmo dataset do dia 24.1.
 
 Código abaixo:
 
-``` json
+``` javascript
 {
   "title": "Batman",
   "category": [ "action", "adventure" ],
@@ -36,7 +36,7 @@ Antes de começar os exercícios, faça a inserção dos documentos acima.
 
   Após a execução do método .find().pretty() , o resultado do filme Batman será parecido com o código abaixo:
 
-``` json
+``` javascript
 {
 	"_id" : ObjectId("6092e43cc4b537a5a1a0f84c"),
 	"title" : "Batman",
@@ -58,7 +58,7 @@ Solução: [desafio1.js](./desafio1.js)
 
   Após a execução do método .find().pretty() , o resultado do filme Batman será parecido com o código abaixo:
 
-``` json
+``` javascript
 {
 	"_id" : ObjectId("6092e43cc4b537a5a1a0f84c"),
 	"title" : "Batman",
@@ -83,7 +83,7 @@ Solução: [desafio2.js](./desafio2.js)
 
   Após a execução do método .find().pretty() , o resultado do filme Batman será parecido com o código abaixo:
 
-``` json
+``` javascript
 {
 	"_id" : ObjectId("6092e43cc4b537a5a1a0f84c"),
 	"title" : "Batman",
@@ -107,7 +107,7 @@ Solução: [desafio3.js](./desafio3.js)
 
   Após a execução do método .find().pretty() , o resultado do filme Batman será parecido com o código abaixo:
 
-``` json
+``` javascript
 {
 	"_id" : ObjectId("6092e43cc4b537a5a1a0f84c"),
 	"title" : "Batman",
@@ -129,7 +129,7 @@ Solução: [desafio4.js](./desafio4.js)
 
   Após a execução do método .find().pretty() , o resultado do filme Batman será parecido com o código abaixo:
 
-``` json
+``` javascript
 {
 	"_id" : ObjectId("6092e43cc4b537a5a1a0f84c"),
 	"title" : "Batman",
@@ -150,7 +150,7 @@ Solução: [desafio5.js](./desafio5.js)
 
   Após a execução do método .find().pretty() o resultado do filme Batman será parecido com o código abaixo:
 
-``` json
+``` javascript
 {
 	"_id" : ObjectId("6092e43cc4b537a5a1a0f84c"),
 	"title" : "Batman",
@@ -173,7 +173,7 @@ Solução: [desafio6.js](./desafio6.js)
 
   Após a execução do método .find().pretty() , o resultado do filme Batman e do filme Home Alone será parecido com o código abaixo:
 
-``` json
+``` javascript
 {
 	"_id" : ObjectId("6092e43cc4b537a5a1a0f84c"),
 	"title" : "Batman",
@@ -205,7 +205,7 @@ Solução: [desafio7.js](./desafio7.js)
 <hr>
 
 ### 8) Crie um array de documentos chamado cast para o filme Home Alone com os seguintes dados:
-``` json
+``` javascript
 {
   "actor": "Macaulay Culkin",
   "character": "Kevin"
@@ -222,7 +222,7 @@ Solução: [desafio7.js](./desafio7.js)
 
   Após a execução do método .find().pretty() , o resultado do filme Home Alone será parecido com o código abaixo:
 
-``` json
+``` javascript
 {
 	"_id" : ObjectId("6092e43cc4b537a5a1a0f84e"),
 	"title" : "Home Alone",
@@ -257,7 +257,7 @@ Dica : Para isso, leia aqui sobre o operador $ .
 
   Após a execução do método .find().pretty() , o resultado do filme Home Alone será parecido com o código abaixo:
 
-``` json
+``` javascript
 {
 	"_id" : ObjectId("6092e43cc4b537a5a1a0f84e"),
 	"title" : "Home Alone",
@@ -287,7 +287,7 @@ Dica : Para isso, leia aqui sobre o operador $ .
 <hr>
 
 ### 10) Crie um array de documentos chamado cast para o filme Batman com os seguintes dados:
-``` json
+``` javascript
 {
   "character": "Batman"
 },
@@ -302,7 +302,7 @@ Dica : Para isso, leia aqui sobre o operador $ .
   Após a execução do método .find().pretty() , o resultado do filme Batman será parecido com o código abaixo:
 
 
-``` json
+``` javascript
 {
 	"_id" : ObjectId("6092e43cc4b537a5a1a0f84c"),
 	"title" : "Batman",
@@ -345,7 +345,7 @@ Dica : Para isso, [leia aqui](https://docs.mongodb.com/manual/reference/operator
  
  Após a execução do método .find().pretty() o resultado do filme Batman será parecido com o código abaixo:
 
-``` json
+``` javascript
 {
 	"_id" : ObjectId("6092e43cc4b537a5a1a0f84c"),
 	"title" : "Batman",
@@ -389,7 +389,7 @@ Dica : Para isso, [leia aqui](https://docs.mongodb.com/manual/reference/operator
 
 Após a execução do método .find().pretty() , o resultado do filme Batman será parecido com o código abaixo:
 
-``` json
+``` javascript
 {
 	"_id" : ObjectId("6092e43cc4b537a5a1a0f84c"),
 	"title" : "Batman",
